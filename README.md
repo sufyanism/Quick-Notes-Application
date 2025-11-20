@@ -1,16 +1,71 @@
-# quick_notes_app
+# Flutter Quick Notes App
+A clean and simple Notes App built using Flutter + Riverpod + MVVM + Shared Preferences.
 
-A new Flutter project.
+## Features
+1. Add new notes
+2. Edit existing notes
+3. Delete notes
+4. Search notes
+5. Local storage using shared_preferences
+6. Clean MVVM architecture
 
-## Getting Started
+```plaintext
+## Project Structure
+lib/
+ ├── models/
+ │     └── note.dart
+ ├── services/
+ │     └── storage_service.dart
+ ├── view/
+ │     ├── home_screen.dart
+ │     └── add_edit_screen.dart
+ ├── view_model/
+ │     └── notes_view_model.dart
+ └── main.dart
+```
 
-This project is a starting point for a Flutter application.
+## Dependencies
+```plaintext
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.4.0
+  shared_preferences: ^2.2.2
+Run:
+flutter pub get
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Architecture (MVVM + Riverpod)
+Model → Note data class
+1. ViewModel → StateNotifier managing CRUD + search
+2. View → UI screens listening to provider states
+3. Service → Handles shared_preferences read/write
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Local Storage (Shared Preferences)
+Notes are saved as a JSON encoded list:
+[
+  {
+    "id": "123",
+    "title": "Sample Note",
+    "content": "Hello world",
+    "createdAt": "2025-01-20T10:00:00Z"
+  }
+]
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Running the App
+flutter run
+
+## About Me 
+✨ I’m **Sufyan bin Uzayr**, an open-source developer passionate about building and sharing meaningful projects.
+You can learn more about me and my work at [sufyanism.com](https://sufyanism.com/) or connect with me on [Linkedin](https://www.linkedin.com/in/sufyanism)
+
+## Your all-in-one learning hub! 
+🚀 Explore courses and resources in coding, tech, and development at **zeba.academy** and **code.zeba.academy**. Empower yourself with practical skills through curated tutorials, real-world projects, and hands-on experience. Level up your tech game today! 💻✨
+
+**Zeba Academy**  is a learning platform dedicated to **coding**, **technology**, and **development**.  
+➡ Visit our main site: [zeba.academy](https://zeba.academy)   <br/>
+➡ Explore hands-on courses and resources at: [code.zeba.academy](https://code.zeba.academy)   <br/>
+➡ Check out our YouTube for more tutorials: [zeba.academy](https://www.youtube.com/@zeba.academy)  <br/>
+➡ Follow us on Instagram: [zeba.academy](https://www.instagram.com/zeba.academy/)  <br/>
+
+**Thank you for visiting!**
