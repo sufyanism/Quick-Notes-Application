@@ -9,6 +9,38 @@ A clean and simple Notes App built using Flutter + Riverpod + MVVM + Shared Pref
 5. Local storage using shared_preferences
 6. Clean MVVM architecture
 
+## Installation
+Clone the repository:
+```sh
+git clone <your-repo-url>
+```
+## Navigate to the project folder:
+```sh
+cd lorem_generator
+```
+
+## Install dependencies:
+```sh
+flutter pub get
+```
+
+## Run the app:
+```sh
+flutter run
+```
+
+# Or
+
+Follow the official Flutter installation guide:
+👉 Flutter Setup Guide
+### 1. Create a new Flutter project 
+```sh
+flutter create quick_notes
+```
+### 2. Replace the lib folder
+Substitute the default lib directory with the provided tutorial codebase.
+
+
 ## Project Structure
 ```plaintext
 lib/
@@ -76,6 +108,7 @@ You can learn more about me and my work at [sufyanism.com](https://sufyanism.com
 ➡ Follow us on Instagram: [zeba.academy](https://www.instagram.com/zeba.academy/)  <br/>
 
 **Thank you for visiting!**
+
 
 
 
