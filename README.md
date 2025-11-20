@@ -16,7 +16,7 @@ git clone <your-repo-url>
 ```
 ## Navigate to the project folder:
 ```sh
-cd lorem_generator
+cd quick_notes
 ```
 
 ## Install dependencies:
@@ -107,6 +107,7 @@ You can learn more about me and my work at [sufyanism.com](https://sufyanism.com
 ➡ Follow us on Instagram: [zeba.academy](https://www.instagram.com/zeba.academy/)  <br/>
 
 **Thank you for visiting!**
+
 
 
 
