@@ -43,6 +43,8 @@ Model → Note data class
 
 ## Local Storage (Shared Preferences)
 Notes are saved as a JSON encoded list:
+
+```plaintext
 [
   {
     "id": "123",
@@ -51,6 +53,7 @@ Notes are saved as a JSON encoded list:
     "createdAt": "2025-01-20T10:00:00Z"
   }
 ]
+```
 
 ## Running the App
 flutter run
@@ -69,4 +72,5 @@ You can learn more about me and my work at [sufyanism.com](https://sufyanism.com
 ➡ Follow us on Instagram: [zeba.academy](https://www.instagram.com/zeba.academy/)  <br/>
 
 **Thank you for visiting!**
+
 
