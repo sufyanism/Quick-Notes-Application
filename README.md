@@ -32,7 +32,6 @@ flutter run
 # Or
 
 Follow the official Flutter installation guide:
-👉 Flutter Setup Guide
 ### 1. Create a new Flutter project 
 ```sh
 flutter create quick_notes
@@ -108,6 +107,7 @@ You can learn more about me and my work at [sufyanism.com](https://sufyanism.com
 ➡ Follow us on Instagram: [zeba.academy](https://www.instagram.com/zeba.academy/)  <br/>
 
 **Thank you for visiting!**
+
 
 
 
