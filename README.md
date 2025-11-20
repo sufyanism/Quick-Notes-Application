@@ -9,8 +9,8 @@ A clean and simple Notes App built using Flutter + Riverpod + MVVM + Shared Pref
 5. Local storage using shared_preferences
 6. Clean MVVM architecture
 
-```plaintext
 ## Project Structure
+```plaintext
 lib/
  ├── models/
  │     └── note.dart
@@ -69,3 +69,4 @@ You can learn more about me and my work at [sufyanism.com](https://sufyanism.com
 ➡ Follow us on Instagram: [zeba.academy](https://www.instagram.com/zeba.academy/)  <br/>
 
 **Thank you for visiting!**
+
