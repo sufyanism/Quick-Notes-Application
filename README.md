@@ -56,7 +56,11 @@ Notes are saved as a JSON encoded list:
 ```
 
 ## Running the App
+```sh
 flutter run
+```
+## Demo
+https://github.com/user-attachments/assets/f5b0e0ba-4078-4b59-9270-a31e7acea511
 
 ## About Me 
 ✨ I’m **Sufyan bin Uzayr**, an open-source developer passionate about building and sharing meaningful projects.
@@ -72,5 +76,6 @@ You can learn more about me and my work at [sufyanism.com](https://sufyanism.com
 ➡ Follow us on Instagram: [zeba.academy](https://www.instagram.com/zeba.academy/)  <br/>
 
 **Thank you for visiting!**
+
 
 
